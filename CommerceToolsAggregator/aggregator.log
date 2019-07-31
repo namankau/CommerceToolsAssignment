@@ -1,0 +1,45 @@
+2019-07-25 11:52:15.994  INFO 24996 --- [main] c.a.a.CommerceToolsAggregatorApplication : Starting CommerceToolsAggregatorApplication on USHYDNAKAUSIK8 with PID 24996 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsAggregator\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsAggregator)
+2019-07-25 11:52:16.000  INFO 24996 --- [main] c.a.a.CommerceToolsAggregatorApplication : No active profile set, falling back to default profiles: default
+2019-07-25 11:52:17.225  INFO 24996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-25 11:52:17.384  INFO 24996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144ms. Found 1 repository interfaces.
+2019-07-25 11:52:18.004  INFO 24996 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c49cadcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-25 11:52:18.616  INFO 24996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8091 (http)
+2019-07-25 11:52:18.655  INFO 24996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 11:52:18.656  INFO 24996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 11:52:18.990  INFO 24996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 11:52:18.990  INFO 24996 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2927 ms
+2019-07-25 11:52:19.311  INFO 24996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-25 11:52:19.543  INFO 24996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-25 11:52:19.853  INFO 24996 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-25 11:52:20.040  INFO 24996 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-25 11:52:20.044  INFO 24996 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-25 11:52:20.467  INFO 24996 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-25 11:52:20.878  INFO 24996 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-25 11:52:22.237  INFO 24996 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4ca970d5'
+2019-07-25 11:52:22.247  INFO 24996 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 11:52:22.770  WARN 24996 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageConsumer' defined in file [C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsAggregator\target\classes\com\aggregator\application\util\MessageConsumer.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Could not register rabbit listener endpoint on [public void com.aggregator.application.util.MessageConsumer.receiveMessage(java.util.List)] for bean messageConsumer, no RabbitListenerContainerFactory with id 'jsaFactory' was found in the application context; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'jsaFactory' available
+2019-07-25 11:52:22.771  INFO 24996 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-25 11:52:22.771  INFO 24996 --- [main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-07-25 11:52:22.781  INFO 24996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-25 11:52:22.785  INFO 24996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-25 11:52:22.788  INFO 24996 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-25 11:52:22.805  INFO 24996 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-25 11:52:22.922 ERROR 24996 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'jsaFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'jsaFactory' in your configuration.
+

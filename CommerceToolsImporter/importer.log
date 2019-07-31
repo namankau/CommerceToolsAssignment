@@ -1,0 +1,163 @@
+2019-07-25 00:26:57.725  INFO 26352 --- [main] c.i.a.CommerceToolsImporterApplication   : Starting CommerceToolsImporterApplication on USHYDNAKAUSIK8 with PID 26352 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter)
+2019-07-25 00:26:57.747  INFO 26352 --- [main] c.i.a.CommerceToolsImporterApplication   : No active profile set, falling back to default profiles: default
+2019-07-25 00:27:01.545  INFO 26352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-25 00:27:01.660  INFO 26352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 00:27:01.666  INFO 26352 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 00:27:02.248  INFO 26352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 00:27:02.248  INFO 26352 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4201 ms
+2019-07-25 00:27:02.771  WARN 26352 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'importerController': Unsatisfied dependency expressed through field 'messageSender'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageProducer': Unsatisfied dependency expressed through method 'produce' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.importer.application.dto.ProductDetailsDTO>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-07-25 00:27:02.780  INFO 26352 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-25 00:27:02.855  INFO 26352 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-25 00:27:03.497 ERROR 26352 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method produce in com.importer.application.util.MessageProducer required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-07-25 00:27:33.131  INFO 18928 --- [main] c.i.a.CommerceToolsImporterApplication   : Starting CommerceToolsImporterApplication on USHYDNAKAUSIK8 with PID 18928 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter)
+2019-07-25 00:27:33.137  INFO 18928 --- [main] c.i.a.CommerceToolsImporterApplication   : No active profile set, falling back to default profiles: default
+2019-07-25 00:27:35.034  INFO 18928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-25 00:27:35.083  INFO 18928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 00:27:35.084  INFO 18928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 00:27:35.341  INFO 18928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 00:27:35.341  INFO 18928 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2139 ms
+2019-07-25 00:27:35.640  WARN 18928 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'importerController': Unsatisfied dependency expressed through field 'messageSender'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageProducer': Unsatisfied dependency expressed through method 'produce' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.importer.application.dto.ProductDetailsDTO>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-07-25 00:27:35.646  INFO 18928 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-25 00:27:35.661  INFO 18928 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-25 00:27:35.910 ERROR 18928 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method produce in com.importer.application.util.MessageProducer required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-07-25 00:30:29.160  INFO 27516 --- [main] c.i.a.CommerceToolsImporterApplication   : Starting CommerceToolsImporterApplication on USHYDNAKAUSIK8 with PID 27516 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter)
+2019-07-25 00:30:29.167  INFO 27516 --- [main] c.i.a.CommerceToolsImporterApplication   : No active profile set, falling back to default profiles: default
+2019-07-25 00:30:30.898  INFO 27516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-25 00:30:30.934  INFO 27516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 00:30:30.935  INFO 27516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 00:30:31.201  INFO 27516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 00:30:31.202  INFO 27516 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1953 ms
+2019-07-25 00:30:31.475  WARN 27516 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'importerController': Unsatisfied dependency expressed through field 'messageSender'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageProducer': Unsatisfied dependency expressed through method 'produce' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.importer.application.dto.ProductDetailsDTO>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-07-25 00:30:31.480  INFO 27516 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-25 00:30:31.495  INFO 27516 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-25 00:30:31.718 ERROR 27516 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method produce in com.importer.application.util.MessageProducer required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-07-25 00:31:48.680  INFO 24592 --- [main] c.i.a.CommerceToolsImporterApplication   : Starting CommerceToolsImporterApplication on USHYDNAKAUSIK8 with PID 24592 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter)
+2019-07-25 00:31:48.685  INFO 24592 --- [main] c.i.a.CommerceToolsImporterApplication   : No active profile set, falling back to default profiles: default
+2019-07-25 00:31:50.440  INFO 24592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-25 00:31:50.488  INFO 24592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 00:31:50.489  INFO 24592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 00:31:50.782  INFO 24592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 00:31:50.783  INFO 24592 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2039 ms
+2019-07-25 00:31:51.053  WARN 24592 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'importerController': Unsatisfied dependency expressed through field 'messageProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageProducer': Unsatisfied dependency expressed through method 'produce' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.importer.application.dto.ProductDetailsDTO>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-07-25 00:31:51.059  INFO 24592 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-25 00:31:51.079  INFO 24592 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-25 00:31:51.414 ERROR 24592 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method produce in com.importer.application.util.MessageProducer required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-07-25 11:38:49.208 DEBUG 7952 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-07-25 11:38:49.367  INFO 7952 --- [main] c.i.a.CommerceToolsImporterApplication   : Starting CommerceToolsImporterApplication on USHYDNAKAUSIK8 with PID 7952 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter)
+2019-07-25 11:38:49.368  INFO 7952 --- [main] c.i.a.CommerceToolsImporterApplication   : No active profile set, falling back to default profiles: default
+2019-07-25 11:38:51.245  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-25 11:38:51.306  INFO 7952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 11:38:51.306  INFO 7952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 11:38:51.719  INFO 7952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 11:38:51.719  INFO 7952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2285 ms
+2019-07-25 11:38:52.137  WARN 7952 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'importerController': Unsatisfied dependency expressed through field 'messageProducer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'messageProducer': Unsatisfied dependency expressed through method 'produce' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.List<com.importer.application.dto.ProductDetailsDTO>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-07-25 11:38:52.144  INFO 7952 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-25 11:38:52.171  INFO 7952 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-25 11:38:52.525 ERROR 7952 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method produce in com.importer.application.util.MessageProducer required a bean of type 'java.util.List' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.List' in your configuration.
+
+2019-07-25 11:48:44.338  INFO 21208 --- [main] c.i.a.CommerceToolsImporterApplication   : Starting CommerceToolsImporterApplication on USHYDNAKAUSIK8 with PID 21208 (C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter\target\classes started by nakaushik in C:\Users\nakaushik\Documents\CommerceToolsAssignment\CommerceToolsImporter)
+2019-07-25 11:48:44.346  INFO 21208 --- [main] c.i.a.CommerceToolsImporterApplication   : No active profile set, falling back to default profiles: default
+2019-07-25 11:48:46.670  INFO 21208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-07-25 11:48:46.704  INFO 21208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-25 11:48:46.705  INFO 21208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-25 11:48:46.958  INFO 21208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-25 11:48:46.958  INFO 21208 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2514 ms
+2019-07-25 11:48:47.590  INFO 21208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-25 11:48:48.061  INFO 21208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-07-25 11:48:48.066  INFO 21208 --- [main] c.i.a.CommerceToolsImporterApplication   : Started CommerceToolsImporterApplication in 4.651 seconds (JVM running for 6.266)
+2019-07-25 11:49:31.811  INFO 21208 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-25 11:49:31.827  INFO 21208 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
